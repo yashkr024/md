@@ -1,0 +1,75 @@
+site_name: Markdown
+site-url:
+
+nav:
+  - What is Markdown?: index.md
+  - Getting Started: getting-started.md
+  - Basic Formatting Syntax: basic-formatting-syntax.md
+  - Adding Links and Images: links-and-images.md
+  - Adding Lists: lists.md
+  - Adding Tables: tables.md
+  - Codeblock: codeblock.md
+  - Mathematical Expressions: mathematical-expressions.md
+
+theme:
+  name: material
+  
+  palette:
+    # - media: "(prefers-color-scheme: light)"
+    # - scheme: default
+    #   primary: indigo
+    #   accent: purple
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    - scheme: slate
+      primary: teal
+      accent: purple
+      # toggle:
+      #   icon: material/weather-night
+      #   name: Switch to light mode
+        
+  font:
+    text: Noto Sans
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+  
+  favicon: assets/img/favicon.svg
+  logo: assets/img/favicon.svg
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - def_list
+  - tables
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2023 Yash Kumar
