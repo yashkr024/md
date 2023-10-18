@@ -1,5 +1,5 @@
 site_name: Markdown
-site-url:
+site_url: https://markdown-md.pages.dev/
 
 nav:
   - What is Markdown?: index.md
@@ -13,6 +13,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   
   palette:
     # - media: "(prefers-color-scheme: light)"
@@ -42,7 +43,7 @@ theme:
     - content.code.copy
   
   favicon: assets/img/favicon.svg
-  logo: assets/img/favicon.svg
+  logo: assets/img/logo.svg
 
 plugins:
   - search:

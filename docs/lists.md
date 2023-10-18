@@ -1,6 +1,6 @@
 # **Lists**
 
-Lists allow you to organize your contents efficiently and improves readability. Whether you are making a to-do list, outlining steps, or creating bullet points, Markdown lists make it easy to structure your information.
+Lists allow you to organize your contents efficiently and improve readability. Whether you are making a to-do list, outlining steps, or creating bullet points, Markdown lists make it easy to structure your information.
 
 ---
 
