@@ -1,0 +1,16 @@
+.example {
+    border: 1px solid #f0f1f41f;
+    border-radius: .1rem;
+    padding: 0 .7rem
+}
+
+.output {
+    font-family: monospace
+}
+
+.button {
+    text-align: center;
+    background-color: #16181dde;
+    padding: .2rem 2rem;
+    border-radius: .2rem;
+}
